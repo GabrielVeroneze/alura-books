@@ -1,11 +1,3 @@
-.cabecalho__icone {
-
-}
-
-.cabecalho__icone--menu {
-    grid-area: menu;
-}
-
 .cabecalho__icone--favoritos {
     grid-area: favoritos;
 }

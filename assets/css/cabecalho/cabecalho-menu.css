@@ -1,0 +1,7 @@
+.cabecalho__menu {
+    background-image: url('../../img/Menu.svg');
+    display: inline-block;
+    grid-area: menu;
+    height: 24px;
+    width: 36px;
+}

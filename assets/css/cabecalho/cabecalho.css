@@ -2,9 +2,10 @@
     align-items: center;
     background-color: var(--branco);
     display: grid;
-    gap: 1.875rem;
-    grid-template-columns: max-content max-content 1fr max-content max-content max-content;
+    grid-template-columns: 80px 72px 1fr 56px 56px 56px;
     grid-template-areas: 
         "menu logo . favoritos compras usuario";
-    padding: 1.25rem 2rem;
+    justify-items: center;
+    padding-right: 1.25rem;
+    height: 80px;
 }
