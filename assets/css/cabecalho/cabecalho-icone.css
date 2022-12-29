@@ -1,0 +1,19 @@
+.cabecalho__icone {
+
+}
+
+.cabecalho__icone--menu {
+    grid-area: menu;
+}
+
+.cabecalho__icone--favoritos {
+    grid-area: favoritos;
+}
+
+.cabecalho__icone--compras {
+    grid-area: compras;
+}
+
+.cabecalho__icone--usuario {
+    grid-area: usuario;
+}

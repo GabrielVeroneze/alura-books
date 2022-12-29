@@ -1,4 +1,10 @@
 .cabecalho {
+    align-items: center;
+    background-color: var(--branco);
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    gap: 1.875rem;
+    grid-template-columns: max-content max-content 1fr max-content max-content max-content;
+    grid-template-areas: 
+        "menu logo . favoritos compras usuario";
+    padding: 1.25rem 2rem;
 }
