@@ -3,6 +3,11 @@
 @import url('../css/cabecalho/cabecalho-logo.css');
 @import url('../css/cabecalho/cabecalho-icone.css');
 
+@import url('../css/menu-lateral/menu-lateral.css');
+@import url('../css/menu-lateral/menu-lateral-titulo.css');
+@import url('../css/menu-lateral/menu-lateral-lista.css');
+@import url('../css/menu-lateral/menu-lateral-item.css');
+
 /* fonte */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 

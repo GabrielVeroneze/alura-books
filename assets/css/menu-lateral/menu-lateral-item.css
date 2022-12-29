@@ -1,0 +1,5 @@
+.menu-lateral__item {
+    color: var(--azul-escuro);
+    padding: 1.25rem 0;
+    text-transform: uppercase;
+}

@@ -10,7 +10,10 @@
 </head>
 <body>
     <header class="cabecalho">
-        <span class="cabecalho__menu"></span>
+
+        <span for="menu" class="cabecalho__menu">
+            <i class="cabecalho__menu--icone"></i>
+        </span>
         <img src="assets/img/Logo.svg" alt="Logo do AluraBooks" class="cabecalho__logo">
         <a href="#" class="cabecalho__icone cabecalho__icone--favoritos">
             <img src="assets/img/Favoritos.svg" alt="Meus favoritos">
@@ -22,5 +25,16 @@
             <img src="assets/img/Usuario.svg" alt="Meu perfil">
         </a>
     </header>
+    <nav class="menu-lateral">
+        <h3 class="menu-lateral__titulo">Categorias</h3>
+        <ul class="menu-lateral__lista">
+            <li class="menu-lateral__item"><a href="#">Programação</a></li>
+            <li class="menu-lateral__item"><a href="#">Front-end</a></li>
+            <li class="menu-lateral__item"><a href="#">Infraestrutura</a></li>
+            <li class="menu-lateral__item"><a href="#">Business</a></li>
+            <li class="menu-lateral__item"><a href="#">Design & UX</a></li>
+        </ul>
+    </nav>
+    <script src="assets/js/menu-lateral.js"></script>
 </body>
 </html>
