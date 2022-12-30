@@ -10,10 +10,20 @@
 </head>
 <body>
     <header class="cabecalho">
-
-        <span for="menu" class="cabecalho__menu">
-            <i class="cabecalho__menu--icone"></i>
-        </span>
+        <input type="checkbox" id="menu" class="cabecalho__menu">
+        <label for="menu" class="cabecalho__menu--botao">
+            <img src="assets/img/Menu.svg" alt="Barra de Menu" class="cabecalho__menu--icone">
+        </label>
+        <nav class="menu-lateral">
+            <h3 class="menu-lateral__titulo">Categorias</h3>
+            <ul class="menu-lateral__lista">
+                <li class="menu-lateral__item"><a href="#">Programação</a></li>
+                <li class="menu-lateral__item"><a href="#">Front-end</a></li>
+                <li class="menu-lateral__item"><a href="#">Infraestrutura</a></li>
+                <li class="menu-lateral__item"><a href="#">Business</a></li>
+                <li class="menu-lateral__item"><a href="#">Design & UX</a></li>
+            </ul>
+        </nav>
         <img src="assets/img/Logo.svg" alt="Logo do AluraBooks" class="cabecalho__logo">
         <a href="#" class="cabecalho__icone cabecalho__icone--favoritos">
             <img src="assets/img/Favoritos.svg" alt="Meus favoritos">
@@ -25,16 +35,10 @@
             <img src="assets/img/Usuario.svg" alt="Meu perfil">
         </a>
     </header>
-    <nav class="menu-lateral">
-        <h3 class="menu-lateral__titulo">Categorias</h3>
-        <ul class="menu-lateral__lista">
-            <li class="menu-lateral__item"><a href="#">Programação</a></li>
-            <li class="menu-lateral__item"><a href="#">Front-end</a></li>
-            <li class="menu-lateral__item"><a href="#">Infraestrutura</a></li>
-            <li class="menu-lateral__item"><a href="#">Business</a></li>
-            <li class="menu-lateral__item"><a href="#">Design & UX</a></li>
-        </ul>
-    </nav>
-    <script src="assets/js/menu-lateral.js"></script>
+    <section class="banner">
+        <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+        <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+    </section>
 </body>
 </html>
