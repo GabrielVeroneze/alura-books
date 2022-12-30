@@ -54,3 +54,13 @@ table {
 a {
     all: unset;
 }
+
+input {
+	outline: none;
+	border:none;
+	background-image:none;
+	background-color:transparent;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;  
+}
