@@ -13,6 +13,11 @@
 @import url('../css/banner/banner-texto.css');
 @import url('../css/banner/banner-pesquisa.css');
 
+@import url('../css/carrosel/carrosel.css');
+@import url('../css/carrosel/carrosel-titulo.css');
+@import url('../css/carrosel/swiper.css');
+
+
 /* fonte */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
