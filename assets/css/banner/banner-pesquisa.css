@@ -1,13 +1,17 @@
 .banner__pesquisa {
     border: 1px solid var(--branco);
     border-radius: 24px;
-    padding: 0.875rem;
-    text-align: center;
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 0.875rem;
+    padding: 0.75rem 1.5rem;
     width: 100%;
 }
 
 .banner__pesquisa::placeholder {
     color: var(--branco);
-    font-family: var(--fonte-principal);
-    font-size: 0.875rem;
+    background-image: url('../../img/Pesquisa.svg');
+    background-repeat: no-repeat;
+    background-position: 1.5rem;
+    text-align: center;
 }
