@@ -1,4 +1,16 @@
 .cabecalho__menu {
+    display: none;
+}
+
+.cabecalho__menu:checked + .cabecalho__menu--botao {
+    background: var(--azul-degrade);
+}
+
+.cabecalho__menu:checked + .cabecalho__menu--botao > .cabecalho__menu--icone {
+    content: url('../../img/Menu-Aberto.svg');
+}
+
+.cabecalho__menu--botao {
     align-items: center;
     display: flex;
     grid-area: menu;

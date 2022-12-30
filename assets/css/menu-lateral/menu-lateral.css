@@ -3,5 +3,12 @@
     display: none;
     padding-left: 1.5rem;
     padding-top: 1.75rem;
+    position: absolute;
+    left: 0;
+    top: 80px;
     width: 70%;
+}
+
+.cabecalho__menu:checked ~ .menu-lateral {
+    display: block;
 }
