@@ -11,4 +11,5 @@
 
 .cabecalho__menu:checked ~ .menu-lateral {
     display: block;
+    z-index: 99;
 }
