@@ -1,0 +1,7 @@
+.card__titulo {
+    color: var(--azul);
+    font-size: 1.125rem;
+    font-weight: 700;
+    grid-area: titulo;
+    line-height: 27px;
+}

@@ -1,0 +1,13 @@
+.card__icone {
+    grid-area: icone;
+    padding: 0.625rem 0.75rem;
+}
+
+.card__icone--favoritos img, .card__icone--compras img {
+    height: 25px;
+    width: 25px;
+}
+
+.card__icone--favoritos {
+    margin-right: 1.5rem;
+}

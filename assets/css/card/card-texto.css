@@ -1,0 +1,7 @@
+.card__texto {
+    color: var(--preto);
+    font-size: 0.875rem;
+    grid-area: texto;
+    line-height: 21px;
+    margin-right: 1.875rem;
+}

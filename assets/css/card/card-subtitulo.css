@@ -1,0 +1,6 @@
+.card__subtitulo {
+    color: var(--laranja);
+    font-weight: 700;
+    grid-area: subtitulo;
+    line-height: 24px;
+}
