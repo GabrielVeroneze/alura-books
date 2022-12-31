@@ -1,4 +1,5 @@
 .swiper-slide > img {
+    height: 249px;
     width: 100%;
 }
 
@@ -10,4 +11,8 @@
 .swiper-pagination {
     margin: 0.5rem 0 0.75rem 0;
     position: initial;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: var(--azul-degrade);
 }
