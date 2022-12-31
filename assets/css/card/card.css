@@ -11,8 +11,17 @@
         'subtitulo imagem'
         'titulo    imagem'
         'texto     imagem'
-        'icone     botao'
-    ;
+        'icone     botao';
     margin: 1.25rem 1.5rem;
-    padding: 1rem 1rem 1.375rem;
+    padding: 1.375rem 1rem;
+}
+
+.card--segundo {
+    grid-template-rows: repeat(5, max-content);
+    grid-template-areas: 
+        'avaliacao imagem'
+        'subtitulo imagem'
+        'titulo    imagem'
+        'texto     imagem'
+        'icone     botao';
 }
