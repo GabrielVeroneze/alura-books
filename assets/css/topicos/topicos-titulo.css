@@ -1,0 +1,7 @@
+.topicos__titulo {
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}

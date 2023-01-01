@@ -1,0 +1,6 @@
+.topicos {
+    background: var(--azul-degrade);
+    color: var(--branco);
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
