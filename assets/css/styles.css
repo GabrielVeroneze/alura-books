@@ -31,16 +31,25 @@
 @import url('../css/topicos/topicos-lista.css');
 @import url('../css/topicos/topicos-item.css');
 
+@import url('../css/contato/contato.css');
+@import url('../css/contato/contato-titulo.css');
+@import url('../css/contato/contato-texto.css');
+@import url('../css/contato/contato-email.css');
+
+@import url('../css/rodape/rodape.css');
+@import url('../css/rodape/rodape-titulo.css');
+
 
 /* fonte */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
     --cor-de-fundo: #EBECEE;
-
+    
     --azul: #002F52;
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --branco: #FFFFFF;
+    --cinza: #858585;
     --laranja: #EB9B00;
     --preto: #000000;
 
