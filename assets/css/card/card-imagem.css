@@ -1,3 +1,5 @@
 .card__imagem {
     grid-area: imagem;
+    max-width: 100%;
+    height: auto;
 }
