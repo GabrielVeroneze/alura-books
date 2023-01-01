@@ -12,6 +12,7 @@
     color: var(--branco);
     background-image: url('../../img/Pesquisa.svg');
     background-repeat: no-repeat;
-    background-position: 1.5rem;
+    background-position: left center;
+    padding-left: 2rem;
     text-align: center;
 }
