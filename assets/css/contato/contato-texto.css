@@ -1,0 +1,9 @@
+.contato__texto {
+    background: var(--azul-degrade);
+    background-clip: text;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 1.5rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
