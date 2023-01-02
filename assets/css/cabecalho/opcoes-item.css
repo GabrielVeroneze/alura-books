@@ -1,5 +1,7 @@
 .opcoes__item {
     color: var(--preto);
-    padding: 0 1.25rem;
+    line-height: 24px;
+    margin: 0 0.625rem;
+    padding: 0.625rem;
     text-transform: uppercase;
 }

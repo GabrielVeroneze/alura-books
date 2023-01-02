@@ -5,11 +5,12 @@
 @import url('../css/cabecalho/cabecalho-icone.css');
 @import url('../css/cabecalho/opcoes.css');
 @import url('../css/cabecalho/opcoes-item.css');
+@import url('../css/cabecalho/opcoes-categorias.css');
 
-@import url('../css/menu-lateral/menu-lateral.css');
-@import url('../css/menu-lateral/menu-lateral-titulo.css');
-@import url('../css/menu-lateral/menu-lateral-lista.css');
-@import url('../css/menu-lateral/menu-lateral-item.css');
+@import url('../css/menu/menu.css');
+@import url('../css/menu/menu-titulo.css');
+@import url('../css/menu/menu-lista.css');
+@import url('../css/menu/menu-item.css');
 
 @import url('../css/banner/banner.css');
 @import url('../css/banner/banner-titulo.css');

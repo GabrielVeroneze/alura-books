@@ -1,0 +1,8 @@
+.opcoes__categorias {
+    display: none;
+}
+
+.opcoes__categorias:checked + .opcoes__categorias-botao {
+    background: var(--azul-degrade);
+    color: var(--branco);
+}
