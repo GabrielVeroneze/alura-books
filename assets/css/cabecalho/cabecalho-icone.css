@@ -9,3 +9,9 @@
 .cabecalho__icone--usuario {
     grid-area: usuario;
 }
+
+@media screen and (min-width: 1024px) {
+    .cabecalho__icone--favoritos {
+        display: none;
+    }
+}

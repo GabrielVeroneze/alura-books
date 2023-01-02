@@ -1,7 +1,10 @@
 @import url('../css/cabecalho/cabecalho.css');
 @import url('../css/cabecalho/cabecalho-menu.css');
 @import url('../css/cabecalho/cabecalho-logo.css');
+@import url('../css/cabecalho/cabecalho-titulo.css');
 @import url('../css/cabecalho/cabecalho-icone.css');
+@import url('../css/cabecalho/opcoes.css');
+@import url('../css/cabecalho/opcoes-item.css');
 
 @import url('../css/menu-lateral/menu-lateral.css');
 @import url('../css/menu-lateral/menu-lateral-titulo.css');
@@ -42,6 +45,7 @@
 
 /* fonte */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
 
 :root {
     --cor-de-fundo: #EBECEE;
@@ -53,7 +57,8 @@
     --laranja: #EB9B00;
     --preto: #000000;
 
-    --fonte-principal: 'Poppins', sans-serif;;
+    --fonte-principal: 'Poppins', sans-serif;
+    --fonte-secundaria: 'Josefin Sans';
 }
 
 body {

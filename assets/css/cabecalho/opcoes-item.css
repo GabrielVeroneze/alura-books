@@ -1,0 +1,5 @@
+.opcoes__item {
+    color: var(--preto);
+    padding: 0 1.25rem;
+    text-transform: uppercase;
+}
