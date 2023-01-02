@@ -1,0 +1,28 @@
+.menu {
+    background-color: var(--branco);
+    display: none;
+    padding-left: 1.5rem;
+    padding-top: 1.75rem;
+    position: absolute;
+    left: 0;
+    top: 80px;
+    width: 70%;
+}
+
+.cabecalho__menu:checked ~ .menu {
+    display: block;
+    z-index: 99;
+}
+
+@media screen and (min-width: 1024px) {
+    .opcoes__categorias:checked ~ .menu {
+        display: block;
+        z-index: 99;
+    }
+
+    .menu {
+        left: auto;
+        padding: 0 1.5rem;
+        width: auto;
+    }
+}
