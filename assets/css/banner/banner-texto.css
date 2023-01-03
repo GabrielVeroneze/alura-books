@@ -3,3 +3,9 @@
     line-height: 24px;
     margin: 0 2rem 1.5rem 2rem;
 }
+
+@media screen and (min-width: 1024px) {
+    .banner__texto {
+        margin: 0 0 1.625rem 0;
+    }
+}
