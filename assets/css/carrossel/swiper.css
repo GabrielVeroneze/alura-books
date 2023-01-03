@@ -19,7 +19,7 @@
 
 @media screen and (min-width: 1024px) {
     .swiper {
-        margin: 0 7rem;
+        width: 78%;
     }
 
     .swiper-pagination {

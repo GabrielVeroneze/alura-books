@@ -18,6 +18,12 @@ const swiper = new Swiper('.swiper', {
 
     // Ativar o modo de loop contínuo
     loop: true,
+
+    // Objeto com parâmetros de navegação.
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
     
     // Número de slides por exibição (slides visíveis ao mesmo tempo no contêiner do slider)
     slidesPerView: 2.25,
