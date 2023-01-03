@@ -9,6 +9,22 @@
 
 @media screen and (min-width: 1024px) {
     .menu__item {
-        padding: 1rem 0;
+        padding: 1rem 1.5rem;
+    }
+    
+    .menu__item:first-child {
+        padding-top: 1.5rem;
+    }
+
+    .menu__item:last-child {
+        padding-bottom: 1.5rem;
+    }
+
+    .menu__item:hover {
+        background: var(--azul-degrade);
+        background-clip: initial;
+        color: var(--branco);
+        -webkit-text-fill-color: initial;
+        -webkit-background-clip: initial;
     }
 }

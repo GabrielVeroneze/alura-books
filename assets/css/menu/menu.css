@@ -15,14 +15,12 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .opcoes__categorias:checked ~ .menu {
-        display: block;
-        z-index: 99;
-    }
 
     .menu {
         left: auto;
-        padding: 0 1.5rem;
+        padding: 0;
+        top: 64px;
+        transform: translateX(-75px);
         width: auto;
     }
 }
