@@ -1,13 +1,3 @@
-const larguraJanela = window.innerWidth
-
-var numeroSlides = null 
-
-if(larguraJanela < 1024) {
-    numeroSlides = 2.25
-} else if (larguraJanela >= 1024) {
-    numeroSlides = 3
-}
-
 const swiper = new Swiper('.swiper', {
     // Objeto com parâmetros de reprodução automática
     autoplay: {
@@ -30,12 +20,21 @@ const swiper = new Swiper('.swiper', {
     loop: true,
     
     // Número de slides por exibição (slides visíveis ao mesmo tempo no contêiner do slider)
-    slidesPerView: numeroSlides,
+    slidesPerView: 2.25,
 
     // Duração da transição entre os slides (em ms)
     speed: 400,
 
     // Distância entre slides em px
     spaceBetween: 11,
+
+    // Permite definir parâmetros diferentes para diferentes tamanhos de tela
+    breakpoints: {
+        // Quando a largura da janela for >= 1024px
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 46,
+        }
+    }
 });
 
