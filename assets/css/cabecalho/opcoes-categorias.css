@@ -1,4 +1,0 @@
-.cabecalho__menu:checked ~ .opcoes > .opcoes__categorias-botao {
-    background: var(--azul-degrade);
-    color: var(--branco);
-}
