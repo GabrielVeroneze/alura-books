@@ -16,3 +16,15 @@
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
     background: var(--azul-degrade);
 }
+
+@media screen and (min-width: 1024px) {
+    .swiper-pagination {
+        margin: 2rem 0 4.5rem 0;
+    }
+
+    .swiper-pagination-bullet {
+        height: 12px;
+        margin: 0 0.375rem !important;
+        width: 12px;
+    }
+}
