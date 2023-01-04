@@ -41,6 +41,11 @@
 
 @import url('../css/rodape/rodape.css');
 @import url('../css/rodape/rodape-titulo.css');
+@import url('../css/rodape/listaRodape.css');
+@import url('../css/rodape/listaRodape-titulo.css');
+@import url('../css/rodape/listaRodape-item.css');
+@import url('../css/rodape/listaRodape-imagem.css');
+@import url('../css/rodape/listaRodape-link.css');
 
 
 /* fonte */
@@ -54,6 +59,7 @@
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --branco: #FFFFFF;
     --cinza: #858585;
+    --cinza-escuro: #474646;
     --laranja: #EB9B00;
     --preto: #000000;
 
