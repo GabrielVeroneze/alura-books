@@ -8,3 +8,12 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+@media screen and (min-width: 1024px) {
+    .contato__titulo {
+        font-size: 1.5rem;
+        grid-area: titulo;
+        line-height: 36px;
+        margin-bottom: 0.75rem;
+    }
+}
