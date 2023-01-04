@@ -2,6 +2,24 @@
     background-color: var(--laranja);
     font-size: 0.875rem;
     font-weight: 700;
-    padding: 1.125rem 1.5rem;
     margin: 0.5rem;
+    padding: 1.125rem 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .topicos__item {
+        font-size: 1.5rem;
+        margin: 0.75rem;
+        padding: 1.5rem 2rem;
+    }
+
+    .topicos__item:nth-child(1) {
+        order: -2;
+    }
+    .topicos__item:nth-child(6) {
+        order: 1;
+    }
+    .topicos__item:nth-child(7) {
+        order: -1;
+    }
 }

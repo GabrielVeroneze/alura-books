@@ -3,3 +3,9 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+@media screen and (min-width: 1024px) {
+    .topicos__lista {
+        padding: 0 8rem;
+    }
+}

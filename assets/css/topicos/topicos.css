@@ -4,3 +4,9 @@
     padding-top: 1.5rem;
     padding-bottom: 1rem;
 }
+
+@media screen and (min-width: 1024px) {
+    .topicos {
+        padding: 2rem 0;
+    }
+}
