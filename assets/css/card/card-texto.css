@@ -5,3 +5,9 @@
     line-height: 21px;
     margin-right: 1.875rem;
 }
+
+@media screen and (min-width: 1024px) {
+    .card__texto {
+        margin-right: 5.5rem;
+    }
+}
