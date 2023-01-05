@@ -1,6 +1,11 @@
 @media screen and (min-width: 1728px) {
     .carrossel {
         display: grid;
-        
+        gap: 0 2.875rem;
+        grid-template-columns: 53.2% 44.1%;
+        grid-template-rows: repeat(2, max-content);
+        grid-template-areas: 
+            'titulo titulo'
+            'swiper card';
     }
 }

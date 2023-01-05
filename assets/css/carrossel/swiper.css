@@ -60,3 +60,16 @@
         right: 0;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .swiper {
+        grid-area: swiper;
+        justify-self: end;
+        margin: 0;
+        width: 81%;
+    }
+
+    .swiper-pagination {
+        margin: 4.625rem 0 2.5rem;
+    }
+}

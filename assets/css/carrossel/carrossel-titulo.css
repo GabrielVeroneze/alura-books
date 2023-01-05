@@ -18,6 +18,7 @@
 @media screen and (min-width: 1728px) {
     .carrossel__titulo {
         font-size: 2rem;
+        grid-area: titulo;
         padding: 3.125rem 0 1.5rem 0;
     }
 }
