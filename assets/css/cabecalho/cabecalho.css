@@ -17,3 +17,9 @@
         padding: 1.25rem 5rem;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .cabecalho {
+        grid-template-columns: 40px 167px 1fr max-content 60px max-content;
+    }
+}

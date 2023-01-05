@@ -8,3 +8,10 @@
         grid-area: opcoes;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .opcoes {
+        justify-self: start;
+        margin-left: 2.875rem;
+    }    
+}
