@@ -1,3 +1,6 @@
-.carrossel {
-    
+@media screen and (min-width: 1728px) {
+    .carrossel {
+        display: grid;
+        
+    }
 }
