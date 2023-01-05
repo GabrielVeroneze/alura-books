@@ -10,3 +10,9 @@
         padding: 5.75rem 0 5.25rem 0;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .banner {
+        padding: 5.25rem 0;
+    }
+}
