@@ -49,3 +49,28 @@
             'icone     botao';
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .card {
+        grid-area: card;
+        grid-template-rows: repeat(4, max-content);
+        grid-template-areas: 
+            'subtitulo imagem'
+            'titulo    imagem'
+            'texto     imagem'
+            'icone     botao';
+        margin: 7.125rem 0 7.125rem;
+        width: 77%;
+    }
+
+    .card-autor {
+        grid-template-rows: repeat(4, max-content) 16px max-content;
+        grid-template-areas: 
+            'avaliacao imagem'
+            'subtitulo imagem'
+            'titulo    imagem'
+            'texto     imagem'
+            '.         imagem'
+            'icone     botao';
+    }
+}
