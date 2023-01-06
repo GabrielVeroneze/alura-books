@@ -4,6 +4,12 @@
     font-weight: 700;
     margin: 0.5rem;
     padding: 1.125rem 1.5rem;
+    transition: 0.25s ease-in-out;
+}
+
+.topicos__item:hover {
+    background-color: var(--branco);
+    color: var(--laranja);
 }
 
 @media screen and (min-width: 1024px) {

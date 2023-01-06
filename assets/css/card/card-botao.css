@@ -7,3 +7,7 @@
     grid-area: botao;
     justify-content: center;
 }
+
+.card__botao:active {
+    background-color: var(--azul);
+}

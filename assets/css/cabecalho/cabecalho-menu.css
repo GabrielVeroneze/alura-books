@@ -12,6 +12,7 @@
 
 .cabecalho__menu-botao {
     align-items: center;
+    cursor: pointer;
     display: flex;
     grid-area: menu;
     height: 100%;
