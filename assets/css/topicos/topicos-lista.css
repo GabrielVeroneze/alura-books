@@ -9,3 +9,9 @@
         padding: 0 8rem;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .topicos__lista {
+        padding: 0 30rem;
+    }
+}

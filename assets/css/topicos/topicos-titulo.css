@@ -13,3 +13,10 @@
         margin-bottom: 2.5rem;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .topicos__titulo {
+        font-size: 2rem;
+        line-height: 48px;
+    }
+}
