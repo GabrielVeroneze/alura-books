@@ -9,3 +9,10 @@
         grid-template-rows: repeat(8, max-content);
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .lista-rodape {
+        border-left: 1px solid var(--cinza);
+        padding: 0 0 0.875rem 1.25rem;
+    }
+}
