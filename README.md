@@ -2,7 +2,7 @@
 
 <hr>
 
-<p align="center"> <img src="https://github.com/GabrielVeroneze/alura-books/blob/7919bf12365c5ac162679786cea476a80051941b/assets/img/Logo.svg" alt="Logo do AluraBooks"> </p>
+<p align="center"> <img src="https://github.com/GabrielVeroneze/alura-books/blob/7919bf12365c5ac162679786cea476a80051941b/assets/img/Logo.svg" alt="Logo da AluraBooks"> </p>
 <p align="center">Um site do e-commerce AluraBooks, uma livraria online de livros sobre tecnologia.</p>
 
 ## Tecnologias
